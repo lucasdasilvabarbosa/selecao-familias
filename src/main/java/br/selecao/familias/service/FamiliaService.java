@@ -22,6 +22,11 @@ public class FamiliaService {
     Event<DadosAnalise> regraPontuacao;
 
     public List<FamiliaContemplada> aplicarPontuacao(List<FamiliaDTO> familias) {
+        /*
+            Lugar mais indicado para fazer uma possivel "mineração" das informações
+            que serão utilizadas na maioria dos testes, o que separa a camada de coleta
+            da camada de teste das Regras
+         */
         List<DadosAnalise> dadosAnalises = new ArrayList<>();
         familias.stream().forEach(f -> {
             DadosAnalise dadosAnalise = new DadosAnalise(f);
