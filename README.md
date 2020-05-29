@@ -1,9 +1,9 @@
-##Aplicação case Seleção de Familias
+## Aplicação case Seleção de Familias
 
  Aplicação criada com o desafio de oferecer uma alternativa para solução criada atualmente, com objetivo de oferecer um 
  código que ofereça uma facil interpletação e um desempenho satisfatorio.
   
-####- Desing Patters Observer
+## Desing Patters Observer
   A motivação que me levou a escolher esse patters e que permite separa com facilidade camada de coleta de dados, ou
   construção do dado a ser validado, e de validação dos dados coletados. Permitindo de forma objetiva chamar todos os 
   testes passando apenas o objeto observado.
@@ -12,7 +12,7 @@
   regra dentro de uma unica classe, facilita a leitura e manutenção do código, tanto nas regras, quanto na 
   adição de novas regras.
    
-###- Contrução
+## Construção
 
  Optei contrução de uma api REST, pois, domino na criação deste tipo de aplicação, e também por possibilitar implantação
  e interface de comunicação simples de utilizar. A maneira que gosto separar as camadas em pacotes de validação, service,
